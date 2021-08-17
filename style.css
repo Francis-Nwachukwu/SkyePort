@@ -1,0 +1,91 @@
+body{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#ffffff;
+}
+.container {
+    margin: auto;
+}
+
+/* Header */
+#main-header {
+    border-bottom: 1px solid #ec407a;
+}
+
+/* Navbar */
+#navbar {
+    text-transform: uppercase;
+}
+#navbar li {
+    list-style:none;
+    display:inline;
+    padding-right:10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #ec407a;
+}
+#navbar li.current a, #navbar a:hover{
+    color:#ec407a;
+    border-bottom:3px #ec407a solid;
+    padding-top:3px;
+    transition:.2s;
+}
+
+/* Common Classes */
+.primary-text {
+    color: #ec407a;
+}
+img{
+    width:100%;
+}
+
+/* features */
+#features button{
+    background-color: #ec407a;
+    border-radius: 10px;
+}
+#features a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#features img{
+    width: 60%;
+}
+#features h3{
+    background: #ec407a;
+    font-size:30px;
+    padding:10px;
+    color:white;
+}
+#main-footer{
+    border-top: 1px solid #ec407a;
+}
+#main-footer img{
+    width: 20px;
+}
+#main-footer li {
+    list-style:none;
+    display:inline;
+    padding-right:40px;
+}
+#main-footer li a{
+    text-decoration: none;
+    border:1px #ec407a solid;
+    padding-top:3px;
+    border-radius: 3px;
+    transition: 1s;
+}
+#main-footer li a:hover{
+    border: 2px #ec407a solid;
+    border-radius: 5px;
+}
+.action{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ec407a;
+    border-radius: 30px;
+    cursor: pointer;
+}
